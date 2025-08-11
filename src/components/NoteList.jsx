@@ -4,7 +4,11 @@ function NoteList({ notes, onAction }) {
   }
 
   if (notes.length === 0) {
-    return <p className="text-center text-muted">No notes yet. Add one!</p>;
+    return (
+      <p className="text-center text-muted text-white-50">
+        No notes yet. Add one!
+      </p>
+    );
   }
 
   return (

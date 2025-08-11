@@ -14,6 +14,11 @@
   resize: none;
 }
 
+.note-textarea:focus {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: none; /* Remove Bootstrap focus glow */
+}
+
 .note-list-container {
   max-height: 350px;
   overflow-y: auto;

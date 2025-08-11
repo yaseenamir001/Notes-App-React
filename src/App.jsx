@@ -58,8 +58,8 @@ function App() {
   return (
     <>
       <div className="min-vh-100 d-flex justify-content-center align-items-center px-3 app-background">
-        <div className="p-4 rounded-5 shadow-sm border border-dark w-100 app-container">
-          <h1 className="text-center mb-4 fw-bold">📝 Notes App</h1>
+        <div className="p-4 rounded-5 shadow-sm border border-light w-100 app-container">
+          <h1 className="text-center mb-4 fw-bold text-white">📝 Notes App</h1>
           <NoteForm onAdd={addNote} />
           <div className="my-3">
             <NoteList notes={notes} onAction={openPopup} />

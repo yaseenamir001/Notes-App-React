@@ -14,7 +14,7 @@ function NoteForm({ onAdd }) {
     <form onSubmit={handleSubmit} className="mb-4">
       <div className="mb-3">
         <textarea
-          className="form-control border border-light rounded-3 scrollbar note-textarea"
+          className="form-control border border-0 text-white rounded-3 scrollbar note-textarea"
           placeholder="Write your note here..."
           value={text}
           onChange={(e) => setText(e.target.value)}
